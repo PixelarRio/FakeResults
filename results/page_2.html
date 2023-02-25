@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITAM Examination Results</title>
+
+    <link rel="stylesheet" href="page_2_style.css">
+
+</head>
+
+
+<body>
+
+    <div class="top">
+        <img class="imgs" src="gitam-logo2.png" alt="">
+    </div>
+
+    <div  class="first_div">
+
+      
+        <h1>Examination Results</h1>
+
+
+    </div>
+
+
+    <div class="main" style="background-color: white;">
+
+        <img class="ress" id="resss"> </img>
+
+        <script>
+            const resu = [
+                "imgs/template1.png","imgs/template2.png","imgs/template3.png","imgs/template4.png","imgs/template5.png","imgs/template6.png",
+                "imgs/template7.png","imgs/template8.png","imgs/template9.png","imgs/template10.png"
+            ];
+
+            let randomIndex = Math.floor(
+                Math.random() * resu.length
+            );
+
+            resss.src = resu[randomIndex]
+
+
+        </script>
+    </div>
+
+</body>
+</html>

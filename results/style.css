@@ -1,0 +1,219 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+body {
+  
+  overflow-x: hidden;
+}
+
+@media screen and (max-width : 600px){
+
+  h1{
+    position: relative;
+    left: -5em;
+  }
+ .outer{
+  max-width: 100%;
+  max-height: 100%;
+ 
+  left: 10%;
+  position: relative;
+ }
+  
+ .inner{
+  margin-left: 10%;
+ }
+  img{
+    max-width:100%;
+    height:auto;
+
+    left: -3em;
+    
+   
+   }
+  
+
+   .top{
+    position: relative;
+   
+    max-height: 25px;
+    max-width: 420px;
+  }
+  
+  .first_div{
+    max-height: 3em;
+    max-width: 420px;
+
+
+   
+   
+    position: relative;
+   }
+}
+
+
+.imgs{
+  width: 12%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 2px;
+  
+}
+
+
+.form{
+  padding: 50px;
+
+}
+
+
+h1{
+
+  font-size: 3vmax;
+  text-align: center;
+
+
+  color: white;
+  font-family:sans-serif;
+  font-weight: lighter;
+
+  margin-left: -4.5em;
+ 
+}
+h2{
+  font-size: 0.8vmax;
+  text-align: left;
+  font-family:sans-serif;
+  font-weight: lighter;
+  padding-left: 40px;
+  padding-right: 30px;
+  line-height: 16px;
+}
+.inner {
+    
+    width: 30em;
+    height: 18em;
+
+    margin-top: 63px;
+    margin-left: 12em;
+    border: 1px solid #666;
+    background-color: #ffffff;
+    position: absolute;
+
+    line-height: 23px;
+  }
+
+    .grey{
+      width: 100%;
+      height: 14%;
+      
+      margin-top: 0px;
+      top: 0px;
+      position: absolute;
+      left: 0;
+
+      background: linear-gradient(180deg , white , rgb(211, 211, 211))
+    }
+  
+
+  .outer{
+   
+    margin-top: -0.3%;
+    margin-left: 22%;
+    width: 55em;
+    height: 28em;
+    
+    background-color: #ffffff;
+    position: absolute;
+    border: #666;
+    box-shadow:  0 3px 10px 1px rgba(132, 132, 132, 0.7); 
+
+  }
+  
+  .first_div{
+    
+    
+    width: 100em;
+    
+    height: 8em;
+  
+    padding-top: 2.5%;
+   
+    background-color: #303c6c;
+    
+    
+
+  }
+
+  .top{
+  
+    
+    width: 100em;
+    
+    height: 5em;
+  
+    
+    background: linear-gradient(180deg , white , rgb(211, 211, 211))
+
+  }
+
+
+  .back{
+    width: 45px;
+    height: 28px;
+    background-color: #dc544c;
+    border: 2px solid #8b3431;
+    color: white;
+    margin-left: 40%;
+
+    margin-top: 40%;
+    text-align: center; 
+
+    cursor: pointer;
+  }
+
+  .Logout{
+    width: 60px;
+    height: 28px;
+    background-color: #dc544c;
+    border: 2px solid #8b3431;
+    color: white;
+    margin-left: 5%;
+
+    text-align: center;
+    
+    cursor: pointer;
+    
+  }
+
+
+  .res{
+    background-color: #303c6c;
+
+    height: 200px;
+    width: 250px;
+
+    position: absolute;
+    left: 40%;
+    top: 100%;
+  }
+
+  
+  .footer{
+    width: 100%;
+    height: 20px;
+
+    background-color: #46579b;
+   
+    
+    margin-top: 32%;
+
+    
+    
+  }
